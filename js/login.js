@@ -11,11 +11,9 @@ function login() {
     if (usuario == '' || clave == '') { 
         document.getElementById("alerta").innerHTML=`
         <div class="alert alert-danger" role="alert">
-        Campo vacio!
+        Campo vacío!
         </div>
-        <br>
-        <br>`
-        
+        `   
     }
         else { 
             window.location.href = "home.html"
